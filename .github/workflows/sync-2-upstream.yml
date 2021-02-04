@@ -23,7 +23,7 @@ jobs:
       id: sync
       uses: aormsby/Fork-Sync-With-Upstream-action@v2.3
       with:
-        upstream_repository: telefonicaid/iotagent-node-lib
+        upstream_repository: telefonicaid/fiware-sth-comet
         upstream_branch: master
         target_branch: master                       # optional
         github_token: ${{ secrets.GITHUB_TOKEN }}   # optional, for accessing repos that require authentication
